@@ -387,7 +387,7 @@ export default function HeroText() {
         {/* CV */}
 
         <a
-          href="https://drive.google.com/file/d/1KqBZiNUt8zgI3DyYP6kVNqpzdcUVHD2X/view?usp=sharing"
+          href="https://www.linkedin.com/in/lal-chand-meghwal-108336423/?skipRedirect=true"
           target="_blank"
           rel="noreferrer"
           data-cursor="DOWNLOAD"
