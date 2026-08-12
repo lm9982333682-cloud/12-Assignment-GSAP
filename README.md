@@ -7,19 +7,16 @@ This is a modern and interactive web project built with **React.js and GSAP (Gre
 
 The project demonstrates how GSAP can be integrated with React to create advanced animations, interactive elements, and smooth scrolling effects.
 
----
 
 ## 🎨 Live UI Preview (Concept)
 
-```html
+
 <div class="hero">
   <h1 class="title">GSAP Animation Project</h1>
   <p class="subtitle">Smooth • Interactive • Modern UI</p>
   <button class="btn">Explore Animations</button>
 </div>
-````
 
-```css
 .hero {
   height: 100vh;
   display: flex;
@@ -59,9 +56,7 @@ The project demonstrates how GSAP can be integrated with React to create advance
   transform: scale(1.1);
   background: #0ea5e9;
 }
-```
 
----
 
 ## ✨ Key Features & Technologies
 
