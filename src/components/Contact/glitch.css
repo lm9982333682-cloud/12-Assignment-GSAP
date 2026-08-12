@@ -1,0 +1,56 @@
+.glitch {
+  position: relative;
+  display: inline-block;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.glitch::before {
+  color: #22d3ee;
+  transform: translate(-2px, 0);
+  clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+  animation: glitchTop 2s infinite;
+}
+
+.glitch::after {
+  color: #ea55f7;
+  transform: translate(2px, 0);
+  clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+  animation: glitchBottom 2s infinite;
+}
+
+@keyframes glitchTop {
+  0%, 90%, 100% {
+    transform: translate(0);
+  }
+  92% {
+    transform: translate(-4px, -2px);
+  }
+  94% {
+    transform: translate(4px, 2px);
+  }
+  96% {
+    transform: translate(-2px, 1px);
+  }
+}
+
+@keyframes glitchBottom {
+  0%, 90%, 100% {
+    transform: translate(0);
+  }
+  91% {
+    transform: translate(4px, 2px);
+  }
+  93% {
+    transform: translate(-4px, -2px);
+  }
+  95% {
+    transform: translate(2px, -1px);
+  }
+}
